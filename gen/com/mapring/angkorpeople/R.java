@@ -37,12 +37,13 @@ public final class R {
         public static final int yammer=0x7f02000d;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000a;
+        public static final int action_settings=0x7f08000b;
         public static final int btnLogin=0x7f080005;
+        public static final int button1=0x7f08000a;
         public static final int etPwd=0x7f080006;
         public static final int etUsername=0x7f080004;
         public static final int ibFb=0x7f080007;
-        public static final int imageButton2=0x7f080008;
+        public static final int ibTwitter=0x7f080008;
         public static final int pager=0x7f080000;
         public static final int pager_title_strip=0x7f080001;
         public static final int relativeLayout1=0x7f080003;

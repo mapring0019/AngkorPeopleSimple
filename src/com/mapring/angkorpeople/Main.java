@@ -2,6 +2,9 @@ package com.mapring.angkorpeople;
 
 import org.brickred.socialauth.android.SocialAuthAdapter;
 
+import com.mapring.social.LoginFragment;
+import com.mapring.social.*;
+
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -11,8 +14,6 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 
 public class Main extends FragmentActivity {
-	
-	SocialAuthAdapter adapter;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,7 @@ public class Main extends FragmentActivity {
 	public static class PagerAdapter extends FragmentStatePagerAdapter{
 		
 		Context cxt;
+		SocialAuthAdapter adap;
 
 		public PagerAdapter(FragmentManager fm,Context cn) {
 			super(fm);

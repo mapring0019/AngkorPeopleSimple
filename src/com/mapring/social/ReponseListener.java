@@ -23,7 +23,7 @@ public final class ReponseListener extends Activity implements DialogListener {
 	public void onComplete(Bundle values) {
 		// TODO Auto-generated method stub
 		Toast.makeText(ctx, "Logged", Toast.LENGTH_LONG).show();
-		activity.changeIntent();
+//		activity.changeIntent();
 	}
 
 	@Override
@@ -43,5 +43,4 @@ public final class ReponseListener extends Activity implements DialogListener {
 		// TODO Auto-generated method stub
 		
 	}
-
 }

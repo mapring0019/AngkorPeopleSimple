@@ -80,10 +80,4 @@ public class LoginFragment extends Fragment implements OnClickListener, ChangeAc
 		// TODO Auto-generated method stub
 		super.onActivityResult(requestCode, resultCode, data);
 	}
-
-	@Override
-	public void changeLogout() {
-		// TODO Auto-generated method stub
-		adapter.signOut("facebook");
-	}
 }
